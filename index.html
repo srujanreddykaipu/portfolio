@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kaipu Srujan Reddy | Portfolio - Graph Theory & AI</title>
+  <meta name="description" content="Portfolio of Kaipu Srujan Reddy, student at Jain University specializing in Discrete Mathematics, Graph Neural Networks, and Algorithmic Optimization.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+</head>
+<body>
+
+  <!-- Minimal Background Grid & Glow -->
+  <div class="bg-grid"></div>
+  <div class="ambient-glow"></div>
+
+  <!-- Header / Navigation -->
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <div class="nav-brand">
+          <div class="nav-brand-avatar">SR</div>
+          <div class="nav-brand-info">
+            <span class="nav-name">Kaipu Srujan Reddy</span>
+            <span class="nav-status">
+              <span class="status-dot"></span>
+              Jain University
+            </span>
+          </div>
+        </div>
+
+        <div class="nav-right-cluster">
+          <ul class="nav-links">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#featured-project" class="nav-link">Project</a></li>
+            <li><a href="#certifications" class="nav-link">Certifications</a></li>
+            <li><a href="#competencies" class="nav-link">Competencies</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+
+          <!-- Theme Toggle Button (Dark / Light Mode) -->
+          <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark/light theme" onclick="toggleTheme()" title="Toggle Dark / Normal Mode">
+            <svg id="theme-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <!-- Default Moon icon for Dark Mode -->
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+
+          <a href="#contact" class="btn btn-outline btn-sm">Get in touch</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main>
+    <section class="hero" id="about">
+      <div class="container">
+        <div class="hero-pill reveal">
+          <span class="hero-pill-indicator">●</span>
+          <span>Undergraduate Student & AI / Graph Theory Researcher</span>
+        </div>
+
+        <h1 class="hero-title reveal reveal-delay-1">
+          Architecting intelligent solutions with <span class="hero-highlight">Graph Theory</span> and modern AI.
+        </h1>
+
+        <p class="hero-bio reveal reveal-delay-2">
+          Hi, I'm <strong>Kaipu Srujan Reddy</strong>, an undergraduate student at <strong>Jain University</strong>. I specialize in Discrete Mathematics, Graph Neural Networks (GNNs), and combinatorial optimization algorithms. I build computational software that models real-world conflict networks and solves complex NP-hard scheduling problems.
+        </p>
+
+        <div class="hero-actions reveal reveal-delay-3">
+          <a href="https://graphcolorexamscheduler-icuzmjc4pv7gfscarxrbx9.streamlit.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+            <span>Launch Live Project</span>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+          </a>
+          <a href="#certifications" class="btn btn-outline">
+            <span>View Certifications</span>
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            <span>Contact Me</span>
+          </a>
+        </div>
+
+        <div class="hero-meta-strip reveal reveal-delay-4">
+          <div class="meta-item">
+            <span class="meta-label">Education</span>
+            <span class="meta-val">Jain University, Bangalore</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Core Specialization</span>
+            <span class="meta-val">Graph Neural Networks & Discrete Math</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Featured Deployment</span>
+            <span class="meta-val">Graph Coloring Exam Scheduler</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Project Section -->
+    <section class="section" id="featured-project">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-label">Featured Application</div>
+          <h2 class="section-title">Exam Timetable Scheduler using Graph Coloring</h2>
+          <p class="section-desc">An algorithmic optimization engine that resolves complex course exam overlaps using graph vertex coloring heuristics.</p>
+        </div>
+
+        <div class="featured-project reveal reveal-delay-1">
+          <div class="project-top-row">
+            <div>
+              <div class="project-title">Conflict-Free University Examination Scheduler</div>
+              <p class="project-desc-text">
+                Timetable creation in academic institutions is a classic NP-complete constraint satisfaction challenge. This application models courses as vertices in an undirected graph, generates edges representing shared student enrollments, and applies heuristic graph coloring algorithms to determine the minimum number of conflict-free examination time slots.
+              </p>
+            </div>
+            <span class="project-status-tag">
+              <span>●</span> Live Cloud App
+            </span>
+          </div>
+
+          <div class="project-key-points">
+            <div class="key-point">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span><strong>Conflict Graph Modeling:</strong> Vertices ($V$) represent subjects, edges ($E$) model mutual student enrollments.</span>
+            </div>
+            <div class="key-point">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span><strong>Algorithmic Coloring:</strong> Employs greedy largest-first heuristics to compute the optimal chromatic number $\chi(G)$.</span>
+            </div>
+            <div class="key-point">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span><strong>Visual Analytics:</strong> Generates real-time topological conflict graphs using NetworkX and Matplotlib.</span>
+            </div>
+            <div class="key-point">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span><strong>Student Schedule Inspector:</strong> Allows individual students to query personalized clash-free timetables.</span>
+            </div>
+          </div>
+
+          <div class="project-tags">
+            <span class="tech-tag">Streamlit</span>
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">NetworkX</span>
+            <span class="tech-tag">Graph Theory</span>
+            <span class="tech-tag">Greedy Coloring</span>
+            <span class="tech-tag">Pandas</span>
+            <span class="tech-tag">Matplotlib</span>
+          </div>
+
+          <!-- Live Project Screenshot Showcase -->
+          <div class="project-media-frame">
+            <div class="project-frame-bar">
+              <div class="frame-dots">
+                <span class="frame-dot"></span>
+                <span class="frame-dot"></span>
+                <span class="frame-dot"></span>
+              </div>
+              <div class="frame-tabs">
+                <button type="button" class="frame-tab-btn active" id="tab-graph" onclick="switchProjectShot('assets/projects/exam-scheduler-graph.png', 'tab-graph')">
+                  Conflict Graph (Welsh-Powell)
+                </button>
+                <button type="button" class="frame-tab-btn" id="tab-dash" onclick="switchProjectShot('assets/projects/exam-scheduler-dashboard.png', 'tab-dash')">
+                  Timetable Dashboard
+                </button>
+              </div>
+            </div>
+            <div class="frame-img-wrap" onclick="openCertModal(document.getElementById('project-screenshot-img').src, 'Exam Timetable Scheduler - Live Dashboard', 'Streamlit Cloud Deployment', 'graphcolorexamscheduler-icuzmjc4pv7gfscarxrbx9.streamlit.app')">
+              <img id="project-screenshot-img" src="assets/projects/exam-scheduler-graph.png" alt="Exam Timetable Scheduler Graph Coloring Visualization">
+              <div class="frame-zoom-hint">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                <span>Click to Expand</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-link-bar">
+            <div class="app-url-display">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+              <span>graphcolorexamscheduler-icuzmjc4pv7gfscarxrbx9.streamlit.app</span>
+            </div>
+            <a href="https://graphcolorexamscheduler-icuzmjc4pv7gfscarxrbx9.streamlit.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+              <span>Open Application</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LinkedIn Certifications Section -->
+    <section class="section" id="certifications">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-label">Verified Credentials</div>
+          <h2 class="section-title">LinkedIn Learning Certifications</h2>
+          <p class="section-desc">Formal verified credentials confirming deep theoretical and practical foundations in Graph Neural Networks and Discrete Mathematics.</p>
+        </div>
+
+        <div class="cert-grid">
+          <!-- Cert 1: Graph Neural Networks -->
+          <div class="cert-card reveal reveal-delay-1">
+            <div class="cert-img-box" onclick="openCertModal('assets/certificates/graph-neural-networks-cert.png', 'Learning Graph Neural Networks', 'LinkedIn Learning', '268aa0c882941c52c93f0be138699c2066441c05b7cc1aa4f85aa675bd8811ba')">
+              <img src="assets/certificates/graph-neural-networks-cert.png" alt="LinkedIn Learning Certificate - Learning Graph Neural Networks - Kaipu Srujan Reddy">
+              <div class="cert-hover-hint">
+                <span class="view-btn">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  Click to Expand
+                </span>
+              </div>
+            </div>
+            <div class="cert-body">
+              <div class="cert-issuer-line">LinkedIn Learning Verified</div>
+              <h3 class="cert-title">Learning Graph Neural Networks</h3>
+              <div class="cert-date">Completed by Kaipu Srujan Reddy • Sep 29, 2026 (2h 13m)</div>
+              
+              <div class="cert-skills-list">
+                <span class="skill-pill">Neural Networks</span>
+                <span class="skill-pill">Graph Networks</span>
+                <span class="skill-pill">Artificial Intelligence (AI)</span>
+                <span class="skill-pill">Node Embeddings</span>
+              </div>
+
+              <div class="cert-footer-box">
+                <span class="cert-id-tag" title="ID: 268aa0c882941c52c93f0be138699c2066441c05b7cc1aa4f85aa675bd8811ba">
+                  ID: 268aa0c882...811ba
+                </span>
+                <button class="copy-id-btn" onclick="copyText('268aa0c882941c52c93f0be138699c2066441c05b7cc1aa4f85aa675bd8811ba', 'Certificate ID copied to clipboard!')">
+                  Copy ID
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cert 2: Discrete Mathematics -->
+          <div class="cert-card reveal reveal-delay-2">
+            <div class="cert-img-box" onclick="openCertModal('assets/certificates/discrete-mathematics-cert.jpg', 'Programming Foundations: Discrete Mathematics', 'LinkedIn Learning', '77841faba25afe0e38692df3f223f96cd7c4a9d745067d34c8b1db68d76aa079')">
+              <img src="assets/certificates/discrete-mathematics-cert.jpg" alt="LinkedIn Learning Certificate - Programming Foundations: Discrete Mathematics - Kaipu Srujan Reddy">
+              <div class="cert-hover-hint">
+                <span class="view-btn">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  Click to Expand
+                </span>
+              </div>
+            </div>
+            <div class="cert-body">
+              <div class="cert-issuer-line">LinkedIn Learning Verified</div>
+              <h3 class="cert-title">Programming Foundations: Discrete Mathematics</h3>
+              <div class="cert-date">Completed by Kaipu Srujan Reddy • Sep 28, 2026 (3h 9m)</div>
+              
+              <div class="cert-skills-list">
+                <span class="skill-pill">Discrete Mathematics</span>
+                <span class="skill-pill">Programming Foundations</span>
+                <span class="skill-pill">Combinatorics</span>
+                <span class="skill-pill">Graph Theory</span>
+              </div>
+
+              <div class="cert-footer-box">
+                <span class="cert-id-tag" title="ID: 77841faba25afe0e38692df3f223f96cd7c4a9d745067d34c8b1db68d76aa079">
+                  ID: 77841faba2...6aa079
+                </span>
+                <button class="copy-id-btn" onclick="copyText('77841faba25afe0e38692df3f223f96cd7c4a9d745067d34c8b1db68d76aa079', 'Certificate ID copied to clipboard!')">
+                  Copy ID
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Competencies & Academic Focus -->
+    <section class="section" id="competencies">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-label">Skillset & Foundation</div>
+          <h2 class="section-title">Academic & Technical Competencies</h2>
+          <p class="section-desc">Rigorous background combining computer science curriculum at Jain University with self-directed research in graph structures.</p>
+        </div>
+
+        <div class="skills-two-col">
+          <div class="skills-panel reveal reveal-delay-1">
+            <h3 class="panel-title">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+              <span>Graph Theory & AI Specialization</span>
+            </h3>
+            <ul class="skills-list">
+              <li class="skills-list-item">
+                <span class="skill-name">Graph Neural Networks (GNNs)</span>
+                <span class="skill-detail">Representation Learning & Message Passing</span>
+              </li>
+              <li class="skills-list-item">
+                <span class="skill-name">Graph Coloring Heuristics</span>
+                <span class="skill-detail">Greedy, Welsh-Powell, Largest-First</span>
+              </li>
+              <li class="skills-list-item">
+                <span class="skill-name">Discrete Mathematics</span>
+                <span class="skill-detail">Set Theory, Logic, Combinatorics</span>
+              </li>
+              <li class="skills-list-item">
+                <span class="skill-name">Network & Topology Analysis</span>
+                <span class="skill-detail">Adjacency, Conflict Matrices, Degrees</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="skills-panel reveal reveal-delay-2">
+            <h3 class="panel-title">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              <span>Development & Implementation</span>
+            </h3>
+            <ul class="skills-list">
+              <li class="skills-list-item">
+                <span class="skill-name">Python Development</span>
+                <span class="skill-detail">Core Language, OOP, Algorithms</span>
+              </li>
+              <li class="skills-list-item">
+                <span class="skill-name">Streamlit Web Framework</span>
+                <span class="skill-detail">Interactive Dashboards & Rapid Prototyping</span>
+              </li>
+              <li class="skills-list-item">
+                <span class="skill-name">Data & Graph Libraries</span>
+                <span class="skill-detail">NetworkX, Pandas, NumPy, Matplotlib</span>
+              </li>
+              <li class="skills-list-item">
+                <span class="skill-name">Academic Curriculum</span>
+                <span class="skill-detail">Jain University CS & Engineering Program</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Complete Contact Section -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-label">Get in Touch</div>
+          <h2 class="section-title">Let's Connect</h2>
+          <p class="section-desc">Reach out for academic collaborations, research discussions in Graph Theory, project inquiries, or software engineering roles.</p>
+        </div>
+
+        <div class="contact-layout">
+          <!-- Direct Details Card -->
+          <div class="contact-card reveal reveal-delay-1">
+            <div class="contact-detail-row">
+              <span class="contact-row-label">Full Name</span>
+              <span class="contact-row-val">Kaipu Srujan Reddy</span>
+            </div>
+
+            <div class="contact-detail-row">
+              <span class="contact-row-label">University</span>
+              <span class="contact-row-val">Jain University, Bangalore</span>
+            </div>
+
+            <div class="contact-detail-row">
+              <span class="contact-row-label">Direct Email</span>
+              <span class="contact-row-val">srujanreddykaipu480@gmail.com</span>
+              <div class="contact-btn-strip">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=srujanreddykaipu480@gmail.com" target="_blank" rel="noopener noreferrer" class="contact-pill-btn" title="Open directly in Gmail Web">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                  <span>Gmail Web</span>
+                </a>
+                <a href="mailto:srujanreddykaipu480@gmail.com" class="contact-pill-btn" title="Open in default mail client">
+                  <span>Mail App</span>
+                </a>
+                <button type="button" class="contact-pill-btn" onclick="copyText('srujanreddykaipu480@gmail.com', 'Email copied to clipboard!')">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                  <span>Copy</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="contact-detail-row">
+              <span class="contact-row-label">Phone & WhatsApp</span>
+              <span class="contact-row-val">+91 9398202668</span>
+              <div class="contact-btn-strip">
+                <a href="tel:+919398202668" class="contact-pill-btn" title="Call directly">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                  <span>Call</span>
+                </a>
+                <a href="https://wa.me/919398202668" target="_blank" rel="noopener noreferrer" class="contact-pill-btn" title="Chat on WhatsApp">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                  <span>WhatsApp</span>
+                </a>
+                <button type="button" class="contact-pill-btn" onclick="copyText('9398202668', 'Phone number copied to clipboard!')">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                  <span>Copy</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Upgraded Interactive Contact Form -->
+          <div class="form-panel reveal reveal-delay-2">
+            <form id="contact-form">
+              <div class="form-row-2">
+                <div class="form-group">
+                  <label for="form-name" class="form-label">Your Name <span class="req">*</span></label>
+                  <input type="text" id="form-name" class="form-input" placeholder="e.g. Alex Johnson" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="form-email" class="form-label">Your Email <span class="req">*</span></label>
+                  <input type="email" id="form-email" class="form-input" placeholder="alex@example.com" required>
+                </div>
+              </div>
+
+              <div class="form-row-2">
+                <div class="form-group">
+                  <label for="form-phone" class="form-label">Your Phone (Optional)</label>
+                  <input type="tel" id="form-phone" class="form-input" placeholder="+91 98765 43210">
+                </div>
+
+                <div class="form-group">
+                  <label for="form-subject" class="form-label">Subject / Purpose <span class="req">*</span></label>
+                  <select id="form-subject" class="form-input form-select" required>
+                    <option value="" disabled selected>Select a subject...</option>
+                    <option value="Project Collaboration">Project Collaboration</option>
+                    <option value="Graph Theory & GNN Discussion">Graph Theory & GNN Discussion</option>
+                    <option value="Exam Timetable Scheduler Query">Exam Timetable Scheduler Query</option>
+                    <option value="Academic Inquiry / Jain University">Academic Inquiry / Jain University</option>
+                    <option value="Internship or Job Opportunity">Internship or Job Opportunity</option>
+                    <option value="General Message">General Message</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="form-message" class="form-label">Message <span class="req">*</span></label>
+                <textarea id="form-message" class="form-input" placeholder="Hello Kaipu Srujan, I would like to connect regarding..." required></textarea>
+              </div>
+
+              <!-- Dual Action Send Buttons -->
+              <div class="form-actions-row">
+                <button type="submit" class="btn btn-primary" onclick="handleContactSubmit(event, 'email')">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                  <span>Send via Email</span>
+                </button>
+
+                <button type="button" class="btn btn-whatsapp" onclick="handleContactSubmit(event, 'whatsapp')">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                  <span>Send on WhatsApp</span>
+                </button>
+              </div>
+
+              <div id="form-status" class="form-status-msg"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Minimal Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-copy">
+          © 2026 Kaipu Srujan Reddy • Jain University. All rights reserved.
+        </div>
+        <div class="footer-links">
+          <a href="#about" class="footer-link">Top</a>
+          <a href="#featured-project" class="footer-link">Project</a>
+          <a href="#certifications" class="footer-link">Certifications</a>
+          <a href="#contact" class="footer-link">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Certificate Lightbox Modal -->
+  <div class="modal-backdrop" id="cert-modal" onclick="closeCertModal(event)">
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeCertModalDirect()" aria-label="Close modal">✕</button>
+      <div class="modal-img-container">
+        <img id="modal-img" src="" alt="Certificate Preview">
+      </div>
+      <div class="modal-info-panel">
+        <div class="cert-issuer-line" id="modal-issuer">Issuer</div>
+        <h3 class="cert-title" id="modal-title">Certificate Title</h3>
+        <p class="cert-date" id="modal-desc">Completed by Kaipu Srujan Reddy</p>
+        <div class="cert-footer-box" style="margin-top: 1rem;">
+          <span class="cert-id-tag" id="modal-id">ID: ...</span>
+          <button class="copy-id-btn" id="modal-copy-btn">Copy ID</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+    <span id="toast-text">Notification message</span>
+  </div>
+
+  <!-- Script -->
+  <script src="js/main.js"></script>
+</body>
+</html>
